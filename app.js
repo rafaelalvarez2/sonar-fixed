@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 // password stored in environment variable
+// Modificado
 const password = process.env.APP_PASSWORD;
 
 app.get("/login", function(req, res){
